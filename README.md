@@ -28,17 +28,17 @@ You can run the program with the next command:
 ## Goals
 You must try to accomplish as many goals as possible because this will define if you are a candidate for the next advanced levels of the program.
 
- * Pagination 
-    * Complete navigation functionalities
-    * All pagination unit test must pass
-    * Itendify missing scenarios to test in the Pagination code
-    * Provide an implementation that can navigate a list of numbers
+ 1. Pagination 
+    a. Complete navigation functionalities
+    b. All pagination unit test must pass
+    c. Itendify missing scenarios to test in the Pagination code
+    d. Provide an implementation that can navigate a list of numbers
       * Implement the unit tests for GoToPage, NextPage and GetVisibleItems
-    * Add two new functions for sorting:
+    c. Add two new functions for sorting:
       * SortAsc, sorts the data in an ascending way. The default sorting
       * SortDesc, sorts the data in a descending way 
       * Implement the unit tests
-    * Modify the next methods to make them chainable
+    d. Modify the next methods to make them chainable
       * First page
       * Next page
       * Previous page
@@ -47,19 +47,23 @@ You must try to accomplish as many goals as possible because this will define if
       
       It should be possible to do the next calls:
       `pagination.GoToPage().NextPage();`
- * Providers   
-    * Add support to data sources that are using as separator a pipe (|)
-    * Add support to data sources that are using as separator a white space ( )
-    * `If you think there is a better way to define Providers, feel free to refactor the code.`
-    * All the provided unit tests must pass
-  * Console program
-    * Complete all the navigation functionalities in the Console program
-    * The console program cannot crash for invalid inputs
-    * `Find a better way (refactor) the spaghetti code in the App.cs code, lot of if/else sentences doesn't look good.`
+ 2. Providers   
+    a. Add support to data sources that are using as separator a pipe (|)
+    b. Add support to data sources that are using as separator a white space ( )
+    c. All the provided unit tests must pass
+    d. `If you think there is a better way to define Providers, feel free to refactor the code.` 
+ 3. Console program
+    a. Complete all the navigation functionalities in the Console program
+    b. The console program cannot crash for invalid inputs
+    c. `Find a better way (refactor) the spaghetti code in the App.cs code, lot of if/else sentences doesn't look good.`
 
 # Note
 Remember that the code might have issues, it is your responsibility to identify and fix them.
 
+# Goals to pass Level 1
+  1.a, 1.b, 2.a, 2.b, 2.c, 3.a, 3.b
+# Goals to pass Level 2
+  1.c, 1.d, 1.c, 1.d, 2.d, 3.c
 # Submit your task
 You have 3 hours for this assignment, the way to submit your work is:
  * If you have a github account, you can clone this project and refactor the application in your clone. You must push your changes before the time limit.
