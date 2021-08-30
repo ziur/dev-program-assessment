@@ -29,16 +29,16 @@ You can run the program with the next command:
 You must try to accomplish as many goals as possible because this will define if you are a candidate for the next advanced levels of the program.
 
  1. Pagination 
-    a. Complete navigation functionalities
-    b. All pagination unit test must pass
-    c. Itendify missing scenarios to test in the Pagination code
-    d. Provide an implementation that can navigate a list of numbers
-      * Implement the unit tests for GoToPage, NextPage and GetVisibleItems
-    c. Add two new functions for sorting:
+    * a. Complete navigation functionalities
+    * b. All pagination unit test must pass
+    * c. Itendify missing scenarios to test in the Pagination code
+    * d. Provide an implementation that can navigate a list of numbers
+        * Implement the unit tests for GoToPage, NextPage and GetVisibleItems
+    * c. Add two new functions for sorting:
       * SortAsc, sorts the data in an ascending way. The default sorting
       * SortDesc, sorts the data in a descending way 
       * Implement the unit tests
-    d. Modify the next methods to make them chainable
+    * d. Modify the next methods to make them chainable
       * First page
       * Next page
       * Previous page
@@ -48,14 +48,14 @@ You must try to accomplish as many goals as possible because this will define if
       It should be possible to do the next calls:
       `pagination.GoToPage().NextPage();`
  2. Providers   
-    a. Add support to data sources that are using as separator a pipe (|)
-    b. Add support to data sources that are using as separator a white space ( )
-    c. All the provided unit tests must pass
-    d. `If you think there is a better way to define Providers, feel free to refactor the code.` 
+    * a. Add support to data sources that are using as separator a pipe (|)
+    * b. Add support to data sources that are using as separator a white space ( )
+    * c. All the provided unit tests must pass
+    * d. `If you think there is a better way to define Providers, feel free to refactor the code.` 
  3. Console program
-    a. Complete all the navigation functionalities in the Console program
-    b. The console program cannot crash for invalid inputs
-    c. `Find a better way (refactor) the spaghetti code in the App.cs code, lot of if/else sentences doesn't look good.`
+    * a. Complete all the navigation functionalities in the Console program
+    * b. The console program cannot crash for invalid inputs
+    * c. `Find a better way (refactor) the spaghetti code in the App.cs code, lot of if/else sentences doesn't look good.`
 
 # Note
 Remember that the code might have issues, it is your responsibility to identify and fix them.
