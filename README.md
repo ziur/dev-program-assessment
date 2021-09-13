@@ -72,5 +72,6 @@ You have 3 hours for this assignment, the way to submit your work is:
  https://github.com/ziur/dev-program-assessment/archive/master.zip
  To submit your changes, you can zip your project folder and send it to alejandro.ruiz@fundacion-jala.org before the time limit.  
  **Your email should have the next subject: DEV-<FirstName><Lastname>**
+ 
  **NOTE:** Please make sure only include project files. 
  
